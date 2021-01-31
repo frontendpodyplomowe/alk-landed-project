@@ -2183,6 +2183,11 @@ input, select, textarea {
 		margin: 0 0 4em 0;
 		position: relative;
 		text-align: center;
+
+	}
+	header.major h2{
+		font-family: "Courier New";
+		color:rgb(218, 218, 11);
 	}
 /*
 		header.major:after {
