@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
 
 /*
 	Landed by HTML5 UP
@@ -23,7 +24,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	font-family: 'Lato', sans-serif;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -134,16 +136,23 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		/* color: #ffffff; */
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
+		text-align: center;
+		color: rgba(1, 160, 1, 0.808);
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			border: 0;
 		}
+
+	h1 {
+		font-size: 1.4em;
+		color: #ffffff;
+	}
 
 	h2 {
 		font-size: 2em;
@@ -631,6 +640,10 @@ input, select, textarea {
 	}
 
 /* Container */
+
+	.container h2 {
+		color: #ffffff;
+	}
 
 	.container {
 		margin: 0 auto;
@@ -3767,6 +3780,7 @@ input, select, textarea {
 
 			h3 {
 				font-size: 1.2em;
+				text-align: right;
 			}
 
 			h4 {
