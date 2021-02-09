@@ -2605,6 +2605,11 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+	.shield {
+		list-style-type: square;
+		text-align: left;
+	}
+
 /* Icons */
 
 	ul.icons {
